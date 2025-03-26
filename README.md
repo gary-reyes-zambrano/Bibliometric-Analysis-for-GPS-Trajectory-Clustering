@@ -21,7 +21,7 @@ This analysis establishes an ideal environment for other disciplines and researc
 
 ## Datos usados
 
-Documento [scopus.3-2002-2023.csv]()
+Documento [scopus.3-2002-2023.csv](https://github.com/gary-reyes-zambrano/Bibliometric-Analysis-for-GPS-Trajectory-Clustering/blob/main/Scopus_Export_2002-2023_(Extracted%20on%2025-jan-2024).csv)
 
 ## Proceso de extraccion
 
