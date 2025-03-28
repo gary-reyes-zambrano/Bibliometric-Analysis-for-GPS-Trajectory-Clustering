@@ -12,46 +12,42 @@ This work aims to analyze the scientific production that exists around the topic
 Therefore, a total of 559 articles from the main collection of Scopus were analyzed, previously filtering the generated sample to discard any article that does not have a direct relationship with the topic to be analyzed. 
 This analysis establishes an ideal environment for other disciplines and researchers, since it provides a current state of the trend of the subject of study in their field of research.
 
-## Requisitos
+## Requirements
 
-1. Instalacion de R ([The R project](https://www.r-project.org/))
-2. Paquete bibliometrix
+1. Installation of R ([The R project](https://www.r-project.org/))
+2. Bibliometrix package
 - For install use the command `install.packages("bibliometrix")`
-3. Ejecutable de VOSviewer ([VOSviewer](https://www.vosviewer.com/))
+3. Vosviewer executable ([VOSviewer](https://www.vosviewer.com/))
 
-## Datos usados
+## Used data
 
-Documento [scopus.3-2002-2023.csv](https://github.com/gary-reyes-zambrano/Bibliometric-Analysis-for-GPS-Trajectory-Clustering/blob/main/Scopus_Export_2002-2023_(Extracted%20on%2025-jan-2024).csv)
+Exported data from Scopus  [scopus.3-2002-2023.csv](https://github.com/gary-reyes-zambrano/Bibliometric-Analysis-for-GPS-Trajectory-Clustering/blob/main/Scopus_Export_2002-2023_(Extracted%20on%2025-jan-2024).csv)
 
-## Proceso de extraccion
+## Extraction process
 
-Busqueda en Scopus
-
-### Terminos incluidos
-
+1. Search in Scopus
+2. Terms included in the search:
 - GPS Trajectory Clustering
+3. Selección manual de artículos basado en palabras clave:
+- `trajectory clustering`, `GPS trajectories`, `clustering methods` and related terms.
 
 <!-- ### Terminos excluidos -->
 
-- 
+## General description
 
-## Descripcion General
-
-### Informacion general
+### General Information
 - I1. Overview > Main Information
 
-### Tablas
-- Table 1. Recopilacion manual del estadistico según la pagina de scopus
+### Tables
+- Table 1. Manual compilation of the statistical according to the Scopus page
 - Table 2. bibliometrix > Overview > Annual Scientific Production
-bibliometrix > Overview > Average Citations Per Year
 - Table 3. bibliometrix > Authors > Countries > Corresponding Author's Countries
 - Table 4. bibliometrix > Authors > Countries > Most Cited Countries
 - Table 5. bibliometrix > Sources > Most Relevant Sources
 - Table 6. bibliometrix > Documents > Documents > Most Global Cited Documents
 - Table 7. bibliometrix > Authors > Authors > Most relevant Authors
-bibliometrix > Authors > Authors > Authors Production over Time > Table-Documents
 - Table 8. bibliometrix > Documents > Most Frequent Words (En opciones elegir Author KeyWord o KeyWord Plus)
-- Table 9. Calculo manual
+- Table 9. Entropic concentration index (H) according to Shanon's entropy (https://doi.org/10.1002/j.1538-7305.1948.tb01338.x).
 - Table 10. bibliometrix > Authors > Authors > Lotka Law
 
 
