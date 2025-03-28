@@ -28,7 +28,7 @@ Exported data from Scopus  [scopus.3-2002-2023.csv](https://github.com/gary-reye
 1. Search in Scopus
 2. Terms included in the search:
 - GPS Trajectory Clustering
-3. Selección manual de artículos basado en palabras clave:
+3. Manual selection of articles based on keywords:
 - `trajectory clustering`, `GPS trajectories`, `clustering methods` and related terms.
 
 <!-- ### Terminos excluidos -->
