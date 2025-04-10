@@ -45,31 +45,33 @@ Manual compilation of the statistical according to the Scopus page.
 
 - Table 2. Number of articles published per year.
 
-bibliometrix > Overview > Annual Scientific Production
+`bibliometrix > Overview > Annual Scientific Production`
 
 - Table 3. Ten countries of corresponding authors.
 
-bibliometrix > Authors > Countries > Corresponding Author's Countries
+`bibliometrix > Authors > Countries > Corresponding Author's Countries`
 
 - Table 4. Top ten total citations by country.
 
-bibliometrix > Authors > Countries > Most Cited Countries
+`bibliometrix > Authors > Countries > Most Cited Countries`
 
 - Table 5. The ten most relevant sources.
 
-bibliometrix > Sources > Most Relevant Sources
+`bibliometrix > Sources > Most Relevant Sources`
 
 - Table 6. The ten most cited articles, arranged in descending order by number of citations.
 
-bibliometrix > Documents > Documents > Most Global Cited Documents
+`bibliometrix > Documents > Documents > Most Global Cited Documents`
 
 - Table 7. Most productive authors.
 
-bibliometrix > Authors > Authors > Most relevant Authors
+`bibliometrix > Authors > Authors > Most relevant Authors`
 
 - Table 8. Main keywords.
 
-bibliometrix > Documents > Most Frequent Words (In options choose Author KeyWord or KeyWord Plus)
+`bibliometrix > Documents > Most Frequent Words`
+
+(In options choose Author KeyWord or KeyWord Plus)
 
 - Table 9. Entropic concentration index (H) of the selected variables.
 
