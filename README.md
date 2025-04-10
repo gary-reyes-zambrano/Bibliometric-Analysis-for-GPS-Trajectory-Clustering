@@ -40,39 +40,50 @@ Exported data from Scopus  [scopus.3-2002-2023.csv](https://github.com/gary-reye
 
 ### Tables
 - Table 1. Main areas of research assigned to the sample papers.
+
 Manual compilation of the statistical according to the Scopus page.
 
 - Table 2. Number of articles published per year.
+
 bibliometrix > Overview > Annual Scientific Production
 
 - Table 3. Ten countries of corresponding authors.
+
 bibliometrix > Authors > Countries > Corresponding Author's Countries
 
 - Table 4. Top ten total citations by country.
+
 bibliometrix > Authors > Countries > Most Cited Countries
 
 - Table 5. The ten most relevant sources.
+
 bibliometrix > Sources > Most Relevant Sources
 
 - Table 6. The ten most cited articles, arranged in descending order by number of citations.
+
 bibliometrix > Documents > Documents > Most Global Cited Documents
 
 - Table 7. Most productive authors.
+
 bibliometrix > Authors > Authors > Most relevant Authors
 
 - Table 8. Main keywords.
+
 bibliometrix > Documents > Most Frequent Words (In options choose Author KeyWord or KeyWord Plus)
 
 - Table 9. Entropic concentration index (H) of the selected variables.
+
 Entropic concentration index (H) according to Shanon's entropy (https://doi.org/10.1002/j.1538-7305.1948.tb01338.x).
 It uses Table 7, Table 5, Table 3, Table 1, and Table 6.
 
 - Table 10. Observed distribution of the number of authors who wrote a given number of articles and adjusted values of Lotka's law.
+
 bibliometrix > Authors > Authors > Lotka Law
 
 
 ### Figures
 - Figure 1. Strategic diagram of KeyWords Plus generated with bibliometrix.
+
 `bibliometrix > Conceptual Approach > Network Approach > Thematic Map`
 
 Parameter Settings:
@@ -89,7 +100,7 @@ Parameter Settings:
 *Note:* The distribution of the specific terms related to each topic is only visible in the interactive web interface provided by biblioshiny.
 
 - Figure 2. Strategic diagram of the authors' keywords generated with bibliometrix.
-`bibliometrix` > `Conceptual Approach` > `Network Approach` > `Thematic Map`
+`bibliometrix > Conceptual Approach > Network Approach > Thematic Map`
 
 Parameter Settings:
 | **Option** | **Value** |
